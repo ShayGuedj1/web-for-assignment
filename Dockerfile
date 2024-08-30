@@ -1,5 +1,5 @@
 # Use the official Nginx image as the base image
-FROM nginx:latest
+FROM nginx
 
 # Remove the default Nginx static content
 RUN rm -rf /usr/share/nginx/html/*
